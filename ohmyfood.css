@@ -1,0 +1,1060 @@
+.icon-container {
+  display: block;
+  position: relative;
+  font-size: 25px;
+  width: 25px;
+  height: 25px;
+  margin-top: 15px;
+}
+
+.icon-container i {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.icon-container i.far {
+  z-index: 2;
+}
+
+.icon-container i.fas {
+  opacity: 0;
+  z-index: 1;
+}
+
+.icon-container:hover i.fas {
+  opacity: 1;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  color: #992be2;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  background-color: #fff;
+  z-index: 3;
+  -webkit-box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.5);
+}
+
+.header__container {
+  height: 100%;
+  width: 100%;
+  max-width: 845px;
+  margin: 0px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+          flex-direction: row;
+  -ms-flex-align: center;
+  -webkit-box-align: center;
+          align-items: center;
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+          justify-content: center;
+  position: relative;
+}
+
+.previous {
+  position: absolute;
+  left: 15px;
+  font-size: 30px;
+  text-decoration: none;
+  color: #000;
+}
+
+.logo {
+  text-decoration: none;
+}
+
+h1 {
+  margin: 0px;
+  padding: 0px;
+  font-family: Shrikhand;
+  font-size: 30px;
+  color: #000;
+}
+
+.index_main {
+  width: 100%;
+  position: relative;
+  top: 80px;
+  left: 0px;
+  z-index: 0;
+}
+
+.outils {
+  width: 100%;
+}
+
+.fa,
+.fas {
+  font-weight: 900;
+}
+
+.fa,
+.far,
+.fas {
+  font-family: "Font Awesome 5 Free";
+}
+
+.fa,
+.fab,
+.fad,
+.fal,
+.far,
+.fas {
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+}
+
+.header__container .previous .inactive {
+  height: 100%;
+  display: none;
+}
+
+.header__container .logo {
+  text-decoration: none;
+}
+
+h1 {
+  margin: 0px;
+  padding: 0px;
+  font-family: Shrikhand;
+  font-size: 30px;
+  color: #000;
+}
+
+/*******************main*******************/
+.index_main {
+  width: 100%;
+  position: relative;
+  top: 80px;
+  left: 0px;
+}
+
+.outils {
+  width: 100%;
+}
+
+.outils__search_bar {
+  width: 100%;
+  padding: 15px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+          flex-direction: row;
+  -ms-flex-align: center;
+  -webkit-box-align: center;
+          align-items: center;
+  background-color: #e5e5e5;
+}
+
+.outils__search_bar i {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: 10px;
+}
+
+.outils__search_bar h3 {
+  text-align: center;
+  margin-right: auto;
+}
+
+h3 {
+  margin: 0px;
+  margin-right: 0px;
+  padding: 0px;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  color: #000;
+}
+
+.utils__explore_restaurant {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-align: center;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  background-color: #f2f2f2;
+}
+
+.container,
+.container-menu {
+  width: 100%;
+  padding: 30px 0px;
+}
+
+h2 {
+  margin: 0px;
+  padding: 0px;
+  font-family: Roboto;
+  font-size: 25px;
+  font-weight: 700;
+  color: #000;
+}
+
+.container h4 {
+  margin: 0px;
+  padding: 0px;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 100;
+  color: #000;
+}
+
+.container input {
+  margin: 50px 0px;
+  padding: 15px;
+  border: none;
+  border-radius: 30px;
+  background: -webkit-gradient(linear, left bottom, left top, from(#9356dc), to(#ff79da));
+  background: linear-gradient(to top, #9356dc, #ff79da);
+  color: #fff;
+  font-size: 25px;
+  -webkit-box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.container input:hover {
+  background: #ff79da;
+}
+
+.utils__function {
+  width: 100%;
+  background-color: #fff;
+}
+
+.container h2,
+h4 {
+  padding: 30px 0px;
+}
+
+.outils__explore_restaurant {
+  background-color: whitesmoke;
+}
+
+.container,
+.container-menu {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0px auto;
+  padding: 15px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.container__text {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  padding-left: 15px;
+}
+
+.container__block {
+  width: 280px;
+  margin: 20px 0px;
+  padding: 20px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.block_number {
+  height: 25px;
+  width: 25px;
+  margin-left: -12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 50%;
+  background-color: #9356dc;
+  color: white;
+}
+
+.block_text {
+  margin-left: 12px;
+}
+
+.container__block i {
+  margin-left: 12px;
+  font-size: 18px;
+}
+
+.result {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  background-color: #f2f2f2;
+}
+
+/***********************restaurant*********************/
+.container,
+.container-menu {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container__title {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  padding-top: 15px;
+  padding-left: 15px;
+}
+
+.container__result {
+  width: 100%;
+  margin: 0px auto;
+  padding: 15px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.restaurant1,
+.restaurant2,
+.restaurant3,
+.restaurant4 {
+  width: 90%;
+  height: 300px;
+  margin: 15px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.5);
+}
+
+.restaurant__img {
+  height: 80%;
+  width: 100%;
+  position: relative;
+}
+
+.restaurant__img a {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  text-decoration: none;
+}
+
+.restaurant__img a img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.restaurant__infos {
+  height: 20%;
+  width: 95%;
+  padding: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.restaurant__infos a {
+  height: 100%;
+  width: 80%;
+  text-decoration: none;
+}
+
+.text {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.logo {
+  height: 100%;
+  width: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.new_marker {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 3px;
+  opacity: 0;
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background-color: #99e2d0;
+}
+
+/***********************footer*********************/
+.index_footer {
+  top: 80px;
+}
+
+.container__title a h3 {
+  font-family: Shrikhand;
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer {
+  width: 100%;
+  position: relative;
+  background-color: #354146;
+}
+
+.index_footer {
+  top: 80px;
+}
+
+.container__infos a i {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 5px 5px 5px 0px;
+  color: #fff;
+}
+
+.container__infos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer .container {
+  width: 90%;
+  margin: 0px auto;
+  padding: 15px;
+}
+
+.ohmyfood2 {
+  color: white;
+}
+
+.container__title {
+  width: 100%;
+  padding: 15px 0px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.container__infos a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.container__infos a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.container__infos a h4 {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 5px 0px;
+  color: #fff;
+}
+
+.container__infos a i {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 5px 5px 5px 0px;
+  color: #fff;
+}
+
+/*********************menus******************/
+.restaurant_main {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 100%;
+  position: relative;
+  top: 80px;
+}
+
+.restaurant_photo {
+  position: fixed;
+  height: 100vh;
+}
+
+.restaurant_photo img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.menu {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  max-width: 800px;
+  margin: 0px auto;
+  padding: 15px 15px 0% 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  top: 150px;
+  background-color: #e5e5e5;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.title {
+  height: 50px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.title__text {
+  height: 100%;
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.title__text h2 {
+  font-family: Shrikhand;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.title__logo {
+  height: 100px;
+  width: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.plat__title {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.plat__title h4 {
+  padding: 0;
+  margin-bottom: 0;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 100;
+  color: #000;
+}
+
+.plat__title div {
+  height: 3px;
+  width: 75%;
+  background-color: #99e2d0;
+}
+
+.plat__container .item__name h3 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.plat__container .item__name h5 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.plat {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 100%;
+  margin-top: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.item_container {
+  height: 80px;
+  width: 100%;
+  border-radius: 15px;
+  overflow: hidden;
+  margin-top: 15px;
+  opacity: 0;
+  -webkit-animation: opacity;
+          animation: opacity;
+}
+
+.anime_1 {
+  -webkit-animation-delay: 100ms;
+          animation-delay: 100ms;
+  -webkit-animation-duration: 1000ms;
+          animation-duration: 1000ms;
+  -webkit-animation-name: glissement;
+          animation-name: glissement;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.anime_2 {
+  -webkit-animation-delay: 300ms;
+          animation-delay: 300ms;
+  -webkit-animation-duration: 1000ms;
+          animation-duration: 1000ms;
+  -webkit-animation-name: glissement;
+          animation-name: glissement;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.anime_3 {
+  -webkit-animation-delay: 400ms;
+          animation-delay: 400ms;
+  -webkit-animation-duration: 1000ms;
+          animation-duration: 1000ms;
+  -webkit-animation-name: glissement;
+          animation-name: glissement;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.anime_4 {
+  -webkit-animation-delay: 500ms;
+          animation-delay: 500ms;
+  -webkit-animation-duration: 1000ms;
+          animation-duration: 1000ms;
+  -webkit-animation-name: glissement;
+          animation-name: glissement;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.anime_5 {
+  -webkit-animation-delay: 600ms;
+          animation-delay: 600ms;
+  -webkit-animation-duration: 1000ms;
+          animation-duration: 1000ms;
+  -webkit-animation-name: glissement;
+          animation-name: glissement;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.anime_6 {
+  -webkit-animation-delay: 700ms;
+          animation-delay: 700ms;
+  -webkit-animation-duration: 1000ms;
+          animation-duration: 1000ms;
+  -webkit-animation-name: glissement;
+          animation-name: glissement;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.anime_7 {
+  -webkit-animation-delay: 800ms;
+          animation-delay: 800ms;
+  -webkit-animation-duration: 1000ms;
+          animation-duration: 1000ms;
+  -webkit-animation-name: glissement;
+          animation-name: glissement;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.anime_8 {
+  -webkit-animation-delay: 900ms;
+          animation-delay: 900ms;
+  -webkit-animation-duration: 1000ms;
+          animation-duration: 1000ms;
+  -webkit-animation-name: glissement;
+          animation-name: glissement;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.anime_9 {
+  -webkit-animation-delay: 1000ms;
+          animation-delay: 1000ms;
+  -webkit-animation-duration: 1000ms;
+          animation-duration: 1000ms;
+  -webkit-animation-name: glissement;
+          animation-name: glissement;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.anime_10 {
+  -webkit-animation-delay: 1100ms;
+          animation-delay: 1100ms;
+  -webkit-animation-duration: 1000ms forwards;
+          animation-duration: 1000ms forwards;
+  -webkit-animation-name: glissement;
+          animation-name: glissement;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes glissement {
+  from {
+    margin-bottom: 30px;
+    opacity: 0%;
+  }
+  to {
+    margin-bottom: 0px;
+    opacity: 100%;
+  }
+}
+
+@keyframes glissement {
+  from {
+    margin-bottom: 30px;
+    opacity: 0%;
+  }
+  to {
+    margin-bottom: 0px;
+    opacity: 100%;
+  }
+}
+
+.item {
+  height: 80px;
+  width: 120%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 100px 150px;
+      grid-template-columns: 1fr 100px 150px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #fff;
+  border-radius: 15px;
+  -webkit-transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.3s;
+  cursor: pointer;
+}
+
+.item:hover {
+  width: 100% !important;
+}
+
+.item__name {
+  width: 70%;
+  padding: 0px 10px;
+}
+
+.item__name h5 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 100;
+  color: #000;
+}
+
+.item__price {
+  width: 10%;
+  padding: 0px;
+  text-align: center;
+}
+
+.item__logo {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+  background-color: #99e2d0;
+  border-radius: 0px 15px 15px 0px;
+  font-size: 18px;
+}
+
+.menu input[type="button"] {
+  height: 60px;
+  width: 210px;
+  margin: 30px auto;
+  border: none;
+  border-radius: 30px;
+  font-size: 18px;
+  color: #fff;
+  background: -webkit-gradient(linear, left bottom, left top, from(#9356dc), to(#ff79da));
+  background: linear-gradient(to top, #9356dc, #ff79da);
+  -webkit-box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.menu input[type="button"]:hover {
+  background: #ff79da;
+}
+
+.restaurant_footer {
+  top: 230px;
+}
+
+@media (min-width: 650px) {
+  .outils__search_bar {
+    padding-right: 200px;
+  }
+  .outils__search_bar i {
+    display: inline;
+  }
+  .container-menu {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .container__block {
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+  .restaurant1,
+  .restaurant2,
+  .restaurant3,
+  .restaurant4 {
+    width: 600px;
+  }
+  .container__result {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    -webkit-column-gap: 90px;
+            column-gap: 90px;
+  }
+  .restaurant_photo {
+    width: 100%;
+  }
+}
+
+@media (max-width: 800px) {
+  .item {
+    -ms-grid-columns: 1fr 120px;
+        grid-template-columns: 1fr 120px;
+  }
+  .item__logo {
+    display: none;
+  }
+}
+/*# sourceMappingURL=ohmyfood.css.map */
