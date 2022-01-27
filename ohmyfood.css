@@ -33,6 +33,42 @@
   color: #992be2;
 }
 
+.icon-container-2 {
+  display: block;
+  position: relative;
+  font-size: 25px;
+  width: 25px;
+  height: 25px;
+  margin-top: 15px;
+  margin-right: 30px;
+}
+
+.icon-container-2 i {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.icon-container-2 i.far {
+  z-index: 2;
+}
+
+.icon-container-2 i.fas {
+  opacity: 0;
+  z-index: 1;
+}
+
+.icon-container-2:hover i.fas {
+  opacity: 1;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  color: #992be2;
+}
+
 body {
   height: 100%;
   width: 100%;
@@ -157,7 +193,7 @@ h1 {
 }
 
 .outils__search_bar {
-  width: 100%;
+  width: auto;
   padding: 15px 0px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -184,6 +220,7 @@ h1 {
 .outils__search_bar h3 {
   text-align: center;
   margin-right: auto;
+  text-decoration: none;
 }
 
 h3 {
@@ -194,6 +231,7 @@ h3 {
   font-size: 18px;
   font-weight: 400;
   color: #000;
+  text-decoration: none;
 }
 
 .utils__explore_restaurant {
@@ -389,6 +427,7 @@ h4 {
   width: 100%;
   padding-top: 15px;
   padding-left: 15px;
+  text-decoration: none;
 }
 
 .container__result {
@@ -740,6 +779,7 @@ h4 {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  text-decoration: none;
 }
 
 .plat__container .item__name h5 {
@@ -1013,9 +1053,6 @@ h4 {
 }
 
 @media (min-width: 650px) {
-  .outils__search_bar {
-    padding-right: 200px;
-  }
   .outils__search_bar i {
     display: inline;
   }
@@ -1055,6 +1092,33 @@ h4 {
   }
   .item__logo {
     display: none;
+  }
+}
+
+@media (max-width: 1400px) {
+  .outils__search_bar {
+    width: auto;
+  }
+  .outils__search_bar i {
+    display: inline;
+  }
+  .container-menu {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .container__block {
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+  .container__result {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .restaurant_photo {
+    width: 100%;
   }
 }
 /*# sourceMappingURL=ohmyfood.css.map */
