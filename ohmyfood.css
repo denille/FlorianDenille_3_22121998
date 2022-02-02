@@ -1099,8 +1099,8 @@ h4 {
   .item:hover {
     width: 100% !important;
   }
-  .item__name, .item__price, .item__logo {
-    border: 1px solid black;
+  .item:hover:active {
+    width: 100% !important;
   }
   .item_container {
     width: 100%;
