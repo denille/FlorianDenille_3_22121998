@@ -193,7 +193,7 @@ h1 {
 }
 
 .outils__search_bar {
-  width: 100%;
+  width: auto;
   padding: 15px 0px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -206,7 +206,7 @@ h1 {
   -webkit-box-align: center;
           align-items: center;
   background-color: #e5e5e5;
-  cursor: pointer;
+  cursor: text;
 }
 
 .outils__search_bar i {
@@ -1057,13 +1057,13 @@ h4 {
   top: 230px;
 }
 
-@media (min-width: 650px) {
-  .outils__search_bar {
-    padding-right: 200px;
+@media (min-width: 377px) and (max-width: 800px) {
+  .item {
+    width: 200%;
   }
-  .outils__search_bar i {
-    display: inline;
-  }
+}
+
+@media (min-width: 1000px) {
   .container-menu {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -1089,7 +1089,13 @@ h4 {
             column-gap: 90px;
   }
   .restaurant_photo {
-    width: 100%;
+    width: auto;
+  }
+}
+
+@media (min-width: 650px) {
+  .outils__search_bar i {
+    display: inline;
   }
 }
 
